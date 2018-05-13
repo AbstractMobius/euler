@@ -15,7 +15,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.idea
-__pycache__\*
+__pycache__
 # Windows shortcuts
 *.lnk
 
