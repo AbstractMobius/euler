@@ -20,3 +20,6 @@ def isPrime(x):
             break
     return z
 
+def isPalindromic(str_num):
+    return str_num[:int(math.floor(len(str_num)/2))] == str_num[int(math.ceil(len(str_num)/2)):][::-1]
+
