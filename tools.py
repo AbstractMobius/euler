@@ -34,3 +34,7 @@ def is1to9Pandigital(num):
     a = [i for i in str(num)]
     return len(a) == 9 == len(set(a)) and '0' not in a
 
+def isPandigital1_n(num):
+    l = [i for i in str(num)]
+    return '0' not in l and len(set(l)) == len(l)
+
